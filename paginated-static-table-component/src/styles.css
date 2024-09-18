@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-container__title {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.table-actions {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  margin: 10px 30px;
+}
+
+.table-wrapper {
+  width: 100%;
+}
+
+table {
+  margin: 20px 30px;
+  border-collapse: collapse;
+}
+
+th {
+  background: #ddd;
+}
+
+tr,
+td,
+th {
+  border: 1px solid #e2e2e2;
+  padding: 15px;
+}
